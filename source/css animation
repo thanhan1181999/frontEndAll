@@ -1,0 +1,8 @@
+  animation-name: example;
+    animation-duration: 15s; 				/*một lần chạy trong bao lâu*/
+	animation-delay: 0s;					/*khi vào delay bao lâu thì bắt đầu*/
+	animation-iteration-count: infinite; 	/*số lần chạy -infinite la vô hạn*/
+    animation-direction: normal; 			/*phát đúng chiều hay ngược chiều*/
+    animation-timing-function:linear; 		/*đường cong tốc độ*/ 
+    animation-play-state: running;
+    animation-fill-mode: none;				/*khi kết thúc,lấy trạng thái đầu, hay sau khi kết thúc*/

@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+a{
+		text-decoration: none;
+}
+.hoverImg{
+	max-width: 80%;
+	height: 250px;
+	margin: 0 auto;
+	background-image: url('../source/store1.jpg');
+	background-size:cover;
+	background-position-y:0px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition:3s;
+}
+.hoverImg div{
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: #1089ff;
+    background-size: cover;
+    background-position: center;
+    color: #e5e5e5;
+    padding: 5px;
+	transform: scale(0.4);
+	transition: all 0.8s;
+	opacity: 0;
+}
+
+.hoverImg:hover{
+	transform: scale(1.1,1.1);
+	background-position-y:-600px; 
+}
+
+.hoverImg:hover div{
+	transform: scale(1);
+	opacity: 1;
+}
+.box-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 90%;
+}
